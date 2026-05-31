@@ -4,7 +4,7 @@ const https = require('https');
 // === NOUVELLE CONFIGURATION ===
 const VPS_HOST = '188.166.92.91';                         // Nouvelle IP du VPS
 const VPS_PORT = 80;                                      // Port du VPS
-const UUID = 'f09a960a-4f1b-495f-9962-f1a14e5a7791';      // UUID
+const UUID = '3fba7801-f1b4-44b2-9284-c63aa6e127f0';      // UUID
 const VPS_IP = '188.166.92.91';                           // IP pour la route
 const PORT = process.env.PORT || 8080;
 
