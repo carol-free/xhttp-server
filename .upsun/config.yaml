@@ -1,15 +1,11 @@
 applications:
   app:
     type: nodejs:20
-    size: XS
 
 routes:
   https://{default}/:
     type: proxy
     to: http://188.166.92.91:80
-    cache:
-      enabled: true
-      default_ttl: 600
   http://{default}/:
     type: redirect
     to: https://{default}/
